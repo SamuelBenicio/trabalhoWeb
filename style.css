@@ -1,0 +1,68 @@
+.login {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.login-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+
+  display: inline-block;
+  text-align: center;
+}
+
+.txt-voce {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.btn-paciente {
+  margin-top: 40px;
+  font-size: 40px;
+  width: 100%;
+  height: 70px;
+  display: block;
+}
+
+.btn-aluno {
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 70px;
+  display: block;
+}
+
+.btn-aluno:focus,
+.btn-aluno:active {
+  background-color: rgb(51, 51, 51);
+}
+
+.btn-paciente:focus,
+.btn-paciente:active {
+  background-color: rgb(51, 51, 51);
+}
+
+.input-container {
+  display: none;
+  margin-top: 15px;
+}
+
+.inputIni {
+  width: 100%;
+}
+
+.texto-input {
+  margin-top: 50px;
+  font-size: 30px;
+}
