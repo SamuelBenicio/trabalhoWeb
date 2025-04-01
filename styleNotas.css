@@ -1,0 +1,39 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f1e7e7;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.form-check-input {
+  width: 35px;
+  height: 35px;
+}
+
+.form-check-label {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none !important;
+}
+.final {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
