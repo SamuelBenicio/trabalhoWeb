@@ -37,3 +37,7 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+.card {
+  font-size: 20px;
+}
